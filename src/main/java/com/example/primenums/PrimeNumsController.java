@@ -19,3 +19,4 @@ public class PrimeNumsController {
         SpringApplication.run(PrimeNumsController.class, args);
     }
 }
+
