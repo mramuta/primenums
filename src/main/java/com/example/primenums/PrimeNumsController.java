@@ -12,7 +12,7 @@ public class PrimeNumsController {
     @RequestMapping("/")
     @ResponseBody
     String home() {
-        return "1 is a prime number";
+        return '{"prime":"2"}';
     }
 
     public static void main(String[] args) {
