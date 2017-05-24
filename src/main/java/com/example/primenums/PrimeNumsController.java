@@ -12,7 +12,7 @@ public class PrimeNumsController {
     @RequestMapping("/")
     @ResponseBody
     String home() {
-        return '{"prime":"2"}';
+        return "{\"prime\":\"2\",\"message\":\"\"}";
     }
 
     public static void main(String[] args) {
